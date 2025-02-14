@@ -33,6 +33,6 @@ jobs:
 
       - name: Run Docker container
         run: |
-          docker run -d -p 8000:8000 fastapi-app
+          docker run -d -p 8080:8080 fastapi-app
           # Restart Nginx to serve the updated application
           sudo systemctl restart nginx
