@@ -42,8 +42,8 @@ jobs:
             git reset --hard origin/main
 
             # Stop and rebuild your Docker containers using docker-compose
-            docker-compose down
-            docker-compose up -d --build
+            docker compose down
+            docker compose up -d --build
 
             # (Optional) Restart Nginx if it's used as a reverse proxy
             sudo systemctl restart nginx
