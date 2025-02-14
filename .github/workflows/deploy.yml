@@ -46,4 +46,4 @@ jobs:
             docker compose up -d --build
 
             # (Optional) Restart Nginx if it's used as a reverse proxy
-            sudo systemctl restart nginx
+            # sudo systemctl restart nginx
